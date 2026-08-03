@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I'm Sorry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="background" aria-hidden="true">
+      <div class="heart heart-1">❤</div>
+      <div class="heart heart-2">💗</div>
+      <div class="heart heart-3">💖</div>
+      <div class="petal petal-1"></div>
+      <div class="petal petal-2"></div>
+      <div class="petal petal-3"></div>
+      <div class="petal petal-4"></div>
+    </div>
+
+    <main class="card">
+      <p class="eyebrow">A soft little message</p>
+      <h1>I'm Sorry </h1>
+      <p class="message">
+        If I ever made your heart ache, please know that I am truly sorry.
+        I care about you deeply, and I hope this small page brings even a tiny
+        bit of comfort and warmth.
+      </p>
+
+      <div class="actions">
+        <button id="revealBtn">Reveal another msg</button>
+        <button id="musicBtn">Play soft music</button>
+      </div>
+
+      <section id="surprise" class="surprise hidden">
+        <div class="photo-frame">
+          <span>🌷</span>
+          <span>💖</span>
+          <span>✨</span>
+        </div>
+        <div class="gif-wrapper">
+          <div class="gif-card">
+            <img src="conor-gif.gif" alt="Conor Mcgregor apology GIF" />
+          </div>
+        </div>
+      </section>
+
+      <section class="countdown" aria-label="Countdown section">
+        <h2>Until your next smile</h2>
+        <div class="countdown-grid">
+          <div><span id="days">00</span><small>Days</small></div>
+          <div><span id="hours">00</span><small>Hours</small></div>
+          <div><span id="minutes">00</span><small>Minutes</small></div>
+          <div><span id="seconds">00</span><small>Seconds</small></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
